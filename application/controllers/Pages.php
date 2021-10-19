@@ -3,9 +3,11 @@ class Pages extends CI_Controller{
 
 
 	public function view($page = 'home'){
-		if(!file_exists(APPPATH.'views/pages/'.$page.'.php')){
-			show_404();
-		}
+
+		$this->load->library('session');
+
+		$idiom = $this->session->userdata('language');
+		$this->lang->load('navbar', $idiom);
 
 		$data['title'] = ucfirst($page);
 
