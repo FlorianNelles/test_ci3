@@ -2,7 +2,7 @@
 
 <head>
 
-	<title>Test_V3</title>
+	<title>Test_CI3</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-light">
 	<div class="container">
-	<a class="navbar-brand" >Test_v3</a>
+	<a class="navbar-brand" >Test_CI3</a>
 	</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">

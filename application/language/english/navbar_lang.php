@@ -6,3 +6,4 @@ $lang['news'] = 'News';
 $lang['language'] = 'Language: ';
 $lang['english'] = 'English';
 $lang['german'] = 'German';
+

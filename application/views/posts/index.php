@@ -1,19 +1,17 @@
-<!-- flashdata messages -->
+<!-- Flashdata messages -->
 
-<?php if($this->session->flashdata('post_edit')): ?>
-	<?php echo '<p class="alert alert-success">'.$this->session->flashdata('post_edit').'</p>'; ?>
+<?php if(isset($_SESSION['post_edit'])): ?>
+	<?php echo '<p class="alert alert-success">'.$_SESSION['post_edit'].'</p>'; ?>
 
-<?php elseif ($this->session->flashdata('post_created')): ?>
-	<?php echo '<p class="alert alert-success">'.$this->session->flashdata('post_created').'</p>'; ?>
+<?php elseif (isset($_SESSION['post_created'])): ?>
+	<?php echo '<p class="alert alert-success">'.$_SESSION['post_created'].'</p>'; ?>
 
-<?php elseif ($this->session->flashdata('post_delete')): ?>
-	<?php echo '<p class="alert alert-danger">'.$this->session->flashdata('post_delete').'</p>'; ?>
+<?php elseif (isset($_SESSION['post_delete'])): ?>
+	<?php echo '<p class="alert alert-danger">'.$_SESSION['post_delete'].'</p>'; ?>
 
 <?php endif; ?>
 
-
-
-<!-- begin content -->
+<!-- Begin content -->
 
 <h2><?= $title ?></h2>
 
